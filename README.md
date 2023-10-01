@@ -13,3 +13,4 @@ PDFProc is a seamless way to extract, transform, and reassemble (ETR) data store
 
 ### How it works
 
+![Design Doc](https://github.com/HashemAlsaket/PDFProc/blob/main/pdfproc_design_doc.png)
