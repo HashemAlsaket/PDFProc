@@ -9,10 +9,7 @@ PDFProc is a seamless way to extract, transform, and reassemble (ETR) data store
 
 1. Ensure requirements are installed (virtual environment recommended).
 2. Run `python main.py` in your terminal.
-3. 
+3. Coming soon
 
-### Sample Output
+### How it works
 
-```
-
-```
