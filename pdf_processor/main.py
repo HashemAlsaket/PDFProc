@@ -16,6 +16,7 @@ from ocr.ocr import process_pdf
 from docs.search import doc_search
 from extract.extract import knowledge_graph
 from data.processing import rowify
+from edi.edi_formatter import pandas_to_edi
 
 from openai.error import InvalidRequestError
 
@@ -67,3 +68,10 @@ for fil in fils:
 
 cols = []
 df = pd.DataFrame(columns=cols, data=pdf_data)
+
+edi_data = pandas_to_edi(
+    edi_type='211',
+    df=df,
+    edi_key_col="",
+    edi_data_col="",
+)
